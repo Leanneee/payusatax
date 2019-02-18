@@ -1,0 +1,283 @@
+.alert-container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 5; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgba(255,255,255, 0.5); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+.centerDiv {
+    margin: 0 auto;
+    width: 80em;
+}
+
+.alert-fixed {
+    position: relative;
+    z-index: 9999;
+}
+
+.nonUsPhoneNumber {
+    display: none;
+}
+
+.showHandCursor {
+    cursor: pointer;
+}
+
+.cbp-af-header-shrink {
+    max-height: 150px;
+}
+
+
+.field-validation-error {
+    color: #ff0000;
+    font-weight: 700;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors {
+    font-weight: 700;
+    color: #ff0000;
+}
+
+.validation-summary-valid {
+    font-weight: 800;
+}
+
+.Hide {
+    display: none;
+}
+
+.Show {
+    display: block;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.maintext .overrideanchor a {
+    color: #fff !important;
+    background-color: #337ab7 !important;
+    border-color: #2e6da4 !important;
+}
+
+.datagrid table {
+     border-collapse: collapse; 
+     text-align: left; width: 100%;
+} 
+
+.datagrid {
+    font: normal 12px/150% Arial, Helvetica, sans-serif; 
+    background: #fff; overflow: hidden; 
+    border: 1px solid #006699; 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; border-radius: 3px;
+}
+
+.datagrid table td, .datagrid table th {
+     padding: 3px 10px;
+}
+
+.datagrid table thead th {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+    background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+    background-color:#006699; 
+    color:#ffffff; 
+    font-size: 15px; 
+    font-weight: bold; 
+    border-left: 1px solid #0070A8;
+} 
+
+.datagrid table thead th:first-child {
+     border: none;
+}
+
+.datagrid table tbody td {
+     color: #00496B; 
+     border-left: 1px solid #E1EEF4;
+     font-size: 12px;
+     font-weight: normal;
+}
+
+.datagrid table tbody .alt td {
+     background: #E1EEF4; 
+     color: #00496B;
+}
+
+.datagrid table tbody td:first-child {
+     border-left: none;
+}
+
+.datagrid table tbody tr:last-child td {
+     border-bottom: none;
+}
+
+.datagrid table tfoot td div {
+     border-top: 1px solid #006699;
+     background: #E1EEF4;
+} 
+
+.datagrid table tfoot td {
+     padding: 0; 
+     font-size: 12px
+} 
+
+.datagrid table tfoot td div {
+     padding: 2px;
+}
+
+.datagrid table tfoot td ul {
+     margin: 0; padding:0; 
+     list-style: none; 
+     text-align: right;
+}
+
+.datagrid table tfoot  li {
+     display: inline;
+}
+
+.datagrid table tfoot li a {
+     text-decoration: none; 
+     display: inline-block;  
+     padding: 2px 8px; 
+     margin: 1px;
+     color: #FFFFFF;
+     border: 1px solid #006699;
+     -webkit-border-radius: 3px; 
+     -moz-border-radius: 3px; 
+     border-radius: 3px; 
+     background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+     background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );
+     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+     background-color:#006699;
+}
+
+.datagrid table tfoot ul.active, .datagrid table tfoot ul a:hover {
+     text-decoration: none;
+     border-color: #006699; 
+     color: #FFFFFF; 
+     background: none; 
+     background-color:#00557F;
+}
+
+div.dhtmlx_window_active, div.dhx_modal_cover_dv {
+     position: fixed !important;
+}
+
+.cardLogo {
+    height: 25px;
+    position: absolute;
+    right: 0;
+    margin-top: 30px;
+    padding-right: 20px;
+}
+
+.tdScheduler{
+    border-top-style: solid; 
+    border-right-style: solid; 
+    border-width: thin; 
+    padding-left: 6px;
+    padding-right: 6px;
+} 
+
+.tdEdit{
+    border-top-style: solid;
+    border-right-style: solid;
+    border-width: thin;
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 25px;
+}
+.tdRest{
+    border-top-style: solid;
+    border-right-style: solid;
+    border-width: thin;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 30px;
+}
+.successMessage{
+    color:green;
+    font-size:large;
+    font-weight:bold;
+}
+
+.divtable .tr {
+  overflow: hidden;
+  clear: both;
+  border-bottom: 1px solid #ccc;
+}
+.divtable .th,
+.divtable .td {
+  padding: 5px 10px;
+  float: left;
+}
+.divtable .th {
+    font-weight: bold;
+    background-color: #ebebeb; 
+    color: #666;
+    padding:10px;
+    min-width:100px;
+}
+
+.checkboxReview{
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Skip to MainContent styles ****************************************************************/
+.skipToMainContent {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.skipToMainContent:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    background-color: #fff;
+}
+.secondarySkipToMainContent {
+    left: -10000px;
+    position: absolute;
+}
+/*END Skip to MainContent styles ****************************************************************/

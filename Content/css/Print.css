@@ -1,0 +1,110 @@
+body {
+    font-size: 10pt!important;
+}
+
+
+
+.planSummary {
+    width: 30% !important;
+    float: left;
+    margin-bottom: 100px;
+    height: 200px;
+}
+
+.col-sm-12 {
+    float: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.navbar-right {
+    display: none;
+}
+
+.buttonWrapper2 {
+    display: none; 
+}
+
+.header-text {
+    display: none;  
+}
+
+.stateLogo {
+    padding: 0;
+    margin: 0;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    padding-bottom: 20px;
+}
+
+.paySchedule {
+    width: 200px;
+}
+
+.warningRed {
+    padding-top: 20px;
+}
+
+.step-guide {
+    display: none;    
+}
+
+h4 {
+    font-size: 20px;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.partyTable {
+    padding: 0;
+    margin: 0;
+}
+
+#footer {
+    display: none; 
+}
+
+.buttonHolder2 {
+    display: none;    
+}
+
+.planSummary {
+    width: 50%;
+}
+
+.btn {
+    display: none;
+}
+
+.stepWrapper {
+    display: none;
+}
+
+.nav {
+    display: none;
+}
+
+.confirmation-number {
+	color: #2a8b08 !important;
+	font-weight: 600;
+	font-size: 50px;
+	margin: 0;
+}
+
+.shceduleButtons {
+    display: none;
+}
+
+.terms-conditions {
+    display: inline!important;
+}
+
+.fedType {
+    font-size: 12pt;
+    line-height:normal;
+}
+.blue{
+    font-size: 12pt;
+}
